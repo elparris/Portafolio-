@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family: 'Arvo', serif;
+}
+
+p{
+    margin-bottom: 0 ;
+ }
+
+
+:root{
+    --primary-color :#3C2A21;
+    --secundary-color: #fff;
+    --third-color: #000;
+    --titulos: 20px;
+    --parrafos: 23px;
+    --titulos2: 53px;
+    --fondo: #D9D9D9;
+}
+
+
+body{
+    background: var(--fondo);
+}
+
+
+.bg-content-end a{
+
+    color: var(--primary-color);
+    font-size: 14px;
+}
+
+
+
+.bg-portafolio-nav{
+    background: #D9D9D9;
+    
+}
+
+
+
+.bg-portafolio-nav img{
+    margin-right: 25px;
+    width: 50px;
+    height: 50px;
+}
+
+.bg-content-end ul{
+    text-align: right;
+}
+
+
+
+
+#hero{
+    background: #D9D9D9;
+    /* height: 92vh; */
+    padding: 90px 50px 90px 50px;
+    
+}
+
+
+
+#hero h2{
+   
+    font-size: 17px;
+    color: var(--third-color);
+}
+
+
+#hero h3{
+    
+    font-size: 53px;
+    color: var(--primary-color);
+}
+
+
+#hero h4{
+    
+    font-size: 17px;
+    color: var(--third-color);
+}
+
+
+
+.cuadrado{
+    
+    margin-top: 30px;
+    font-size: 18px;
+    position: relative ;
+    width: 450px;
+    height: 233px;
+    background-color: var(--primary-color);
+    border-radius: 25px;
+    z-index: 1;
+    padding-bottom: 20px;
+}
+
+
+.cuadrado p{
+    padding: 16px;
+    padding-top: 22px;
+    color: var(--secundary-color);
+}
+
+
+
+.circulo{
+    position: absolute;
+    width: 410px;
+    height: 410px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    z-index: 0;
+    
+    
+}
+
+
+.imagen{ 
+    position: relative ;
+    width: 410px;
+    height: 410px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+
+/* .btn-primary-p{
+    padding: 12px 40px;
+    color: var(--primary-color);
+    background:lightblue;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 22px 0;
+    transition: .5s;
+}
+
+
+
+.btn-primary-p:hover{
+    background: rgb(36, 145, 181);  
+    border-radius: 0;
+    border-radius: 15px;
+} */
+
+
+#habilidades{
+    background: #D9D9D9;
+    padding-top: 90px ;
+    padding-bottom: 90px;
+    /* height: 100vh; */
+}
+
+
+
+#habilidades .container-fluid h2{
+    text-align: center;
+    font-size: 42px;
+}
+
+
+#habilidades p{
+    padding: 50px;
+    padding-bottom: 100px ;
+}
+
+
+
+#habilidades h3{
+    padding-top: 80px;
+    text-align: center;
+}
+
+
+#habilidades h4{
+    font-size: 22px;
+}
+
+
+#habilidades .barra h4{
+    margin-bottom: 20px;
+}
+
+
+
+#habilidades .barra{
+    padding: 40px;
+    padding-left: 50px;
+}
+
+
+
+#habilidades .barra1{
+    padding: 21px;
+    padding-left: 21px;
+}
+
+
+
+.barra1 h4{
+    text-align: center;
+}
+
+
+
+.progress {
+    height: 30px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+ 
+.progress-bar {
+    height: 100%;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+ 
+.progress-bar-text {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+
+.progress1 {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+ 
+.progress-bar1 {
+    height: 120px;
+    width: 120px;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+    transition: width 1s;
+    border-radius: 50%;
+}
+
+
+.progress-bar-text1 {
+    margin-left: 48px;
+    font-weight: bold;
+    color: var(--secundary-color);
+
+}
+
+
+
+#experiencia_estudios{
+    background: #D9D9D9;
+    padding-top: 90px ;
+    padding-bottom: 90px;
+    /* height: 100vh; */
+}
+
+
+
+#experiencia_estudios .container-fluid h2{
+    text-align: center;
+    font-size: 42px;
+}
+
+
+.container-fluid p {
+    padding: 50px;
+}
+
+
+
+#experiencia_estudios h3{
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+#experiencia_estudios h4{
+    font-size: 22px;
+}
+
+
+
+.contenedor {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 30px;
+}
+
+.linea-vertical {
+    width: 2px;
+    height: 200px;
+    background-color: var(--primary-color);
+    position: relative;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Estilo para el punto en la parte superior de la línea */
+.punto {
+    width: 10px; /* Ancho del punto */
+    height: 10px; /* Altura del punto */
+    background-color: var(--primary-color); /* Color del punto */
+    border-radius: 50%; /* Hacer el punto redondo */
+    position: absolute;
+    top: 0; /* Posicionar en la parte superior de la línea */
+    left: -4px; /* Ajustar la posición del punto */
+}
+
+/* Estilo para el contenedor del cuadro y el texto */
+.contenido {
+    /* display: flex; */
+    flex-direction: column;
+}
+
+/* Estilo para el cuadro café */
+.cuadro-cafe {
+    background-color: var(--primary-color); /* Color del cuadro café */
+    color: var(--secundary-color); /* Color del texto en el cuadro */
+    padding: 10px; /* Espaciado dentro del cuadro */
+    display: inline-block; /* Hacer que el cuadro se ajuste al contenido */
+    margin-left: 20px; /* Margen izquierdo para separar de la línea vertical */
+    margin-top: 10px;
+    margin-bottom: 10px; /* Margen inferior para separar los elementos */
+}
+
+
+
+.cuadro-cafe p{
+    padding: 0;
+}
+
+
+
+/* Estilo para el título sin cuadro */
+.titulo-sin-cuadro {
+    margin-left: 20px; /* Margen izquierdo para separar de la línea vertical */
+}
+
+
+
+.titulo-sin-cuadro p {
+    padding: 0;
+}
+
+
+
+  
+#portafolio{
+    background: #D9D9D9;
+    padding-top: 90px ;
+    padding-bottom: 300px;
+    /* height: 100vh; */
+}
+
+
+
+#portafolio .container-fluid h2{
+    text-align: center;
+    font-size: 42px;
+}
+
+
+
+#portafolio h3{
+    padding-bottom: 20px;
+}
+
+
+#portafolio h4{
+    font-size: 22px;
+}
+
+#portafolio .contenido p{
+    padding: 0;
+    padding-bottom: 20px ;
+}
+
+/* Estilo para el contenedor */
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+/* Estilo para el rectángulo café */
+.rectangulo-cafe {
+    background-color: var(--primary-color); /* Color del rectángulo café */
+    color: var(--secundary-color); /* Color del texto */
+    padding: 20px; /* Espaciado dentro del rectángulo */
+    width: 400px; /* Ancho del rectángulo café */
+    margin-right: 20px; /* Margen derecho para separar del contenido */
+    height: 200px;
+}
+
+/* Estilo para el rectángulo blanco dentro del café */
+.rectangulo-blanco {
+    background-color: var(--secundary-color); /* Color del rectángulo blanco */
+    padding: 10px; /* Espaciado dentro del rectángulo blanco */
+    height: -webkit-fill-available;
+}
+
+.rectangulo-blanco img {
+    height: 20px;
+    width: 20px;
+}
+
+
+
+/* Estilo para el contenido (texto y botón) */
+.contenido {
+    flex-grow: 1; /* Hacer que ocupe el espacio restante */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+/* Estilo para el botón "Ver Más" */
+.boton-cafe {
+    background-color: var(--primary-color); /* Color del botón café */
+    color: var(--secundary-color); /* Color del texto en el botón */
+    padding: 10px 20px; /* Espaciado dentro del botón */
+    text-decoration: none; /* Eliminar subrayado del enlace */
+    border-radius: 5px; /* Hacer el botón redondeado */
+}
+
+.boton-cafe a {
+    color: var(--secundary-color);
+    text-decoration: none;
+}
+
+
+
+
+#portafolio .contenido1 p{
+    padding: 0;
+    padding-bottom: 20px ;
+    text-align: right;
+}
+
+
+/* Estilo para el contenedor */
+.contenedor1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Estilo para el rectángulo café */
+  .rectangulo-cafe1 {
+    background-color: var(--primary-color); /* Color del rectángulo café */
+    color: var(--secundary-color); /* Color del texto */
+    padding: 20px; /* Espaciado dentro del rectángulo */
+    width: 400px; /* Ancho del rectángulo café */
+    margin-left: 20px; /* Margen izquierdo para separar del contenido */
+    height: 200px;
+  }
+  
+  /* Estilo para el rectángulo blanco dentro del café */
+  .rectangulo-blanco1 {
+    background-color: var(--secundary-color); /* Color del rectángulo blanco */
+    padding: 10px; /* Espaciado dentro del rectángulo blanco */
+    height: -webkit-fill-available;
+  }
+  
+
+  
+  /* Estilo para el contenido (texto y botón) */
+  .contenido1 {
+    flex-grow: 1; /* Hacer que ocupe el espacio restante */
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-start;
+  }
+  
+  
+  /* Estilo para el botón "Ver Más" */
+  .boton-cafe1 {
+    background-color: var(--primary-color); /* Color del botón café */
+    color: var(--secundary-color); /* Color del texto en el botón */
+    padding: 10px 20px; /* Espaciado dentro del botón */
+    text-decoration: none; /* Eliminar subrayado del enlace */
+    border-radius: 5px; /* Hacer el botón redondeado */
+  }
+  
+  .boton-cafe1 a {
+    color: var(--secundary-color);
+    text-decoration: none;
+  }
+
+
+/* Estilo para el footer */
+#footer {
+    background-color: var(--primary-color); /* Color de fondo del footer */
+    color: var(--secundary-color); /* Color del texto */
+    text-align: center; /* Centrar el contenido */
+    padding: 20px; /* Espaciado interior */
+  }
+  
+  /* Estilo para el contenido dentro del footer */
+  .footer-content {
+    max-width: 600px; /* Ancho máximo del contenido */
+    margin: 0 auto; /* Centrar el contenido horizontalmente */
+  }
+
+  .logo-container {
+    padding: 15px;
+  }
+
+
+
